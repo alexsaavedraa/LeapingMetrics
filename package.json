@@ -1,0 +1,19 @@
+{
+  "name": "leapingmetrics",
+  "version": "1.0.0",
+  "description": "Leaping Metrics is a simple server endpoint for metrics.leapingspider.com. It allows me to collect metrics on visitors to any of my personal websites, and send them to an excel spreadsheet dashboard that dynamically updates. The Client side component may vary by project, but the react version roughly consists of a simple detector to tell me what someone is looking at on my page, and for how long. I am using a go endpoint due to its cpu efficient nature.",
+  "main": "authSheets.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "googleapis": "^140.0.1",
+    "uuid": "^10.0.0"
+  }
+}
